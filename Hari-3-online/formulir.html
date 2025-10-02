@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulir</title>
+        <link rel="stylesheet" href="form-style.css">
+    </head>
+    <body>
+        <h1>Pendaftaran Pelatihan Web Menggunakan Node JS dan React</h1>
+        <p>Silahkan isi formulir di bawah ini untuk mendaftar</p>
+        <form>
+            <fieldset>
+                <legend>Data Diri Peserta</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label>Nama : </label><br>
+                            <input type="text" style="height: 25px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Email : </label><br>
+                            <input type="email" style="height: 25px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>No. HP : </label><br>
+                            <input type="text" style="height: 25px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Jenis Kelamin : </label><br>
+                            <input type="radio"><label for="Pria">Pria</label>
+                            <input type="radio"><label for="Wanita">Wanita</label>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset><br>
+            <fieldset>
+                <legend>Pilihan Pelatihan</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label>Pilih Sesi Pelatihan</label><br>
+                            <select>
+                                <option>-- Pilih Salah Satu --</option>
+                                <option>Pagi</option>
+                                <option>Sore</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Sumber Infromasi (Boleh pilih lebih dari satu) : </label><br>
+                            <input type="checkbox"><label>Media Sosial</label><br>
+                            <input type="checkbox"><label>Rekomendasi Teman</label><br>
+                            <input type="checkbox"><label>Iklan Online</label><br>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+                <table>
+                    <tr>
+                        <td>
+                            <p>Catatan tambahan (Opsional):</p>
+                            <textarea></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="submit">Daftar Sekarang</button>
+                            <button type="reset">Bersihkan Formulir</button>
+                        </td>
+                    </tr>
+                </table>
+        </form>
+    </body>
+</html>
