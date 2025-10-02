@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFE0E0;
+}
+.navbar {
+     background-color: #FFB8B8;
+     padding: 10px 20px;
+     margin: 0;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li{
+    padding-left: 0;
+    margin-right: 10px;
+}
+
+.menu li a{
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    color: black;
+}
+
+.menu li a:hover{
+    background-color: #FF7D7D;
+}
+
+.logo {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    font-size: small;
+}
+
+.kategori {
+    text-align: center;
+}
+
+.kategori img {
+    width: 200px;
+    height: 200px;
+}
+.kategori table{
+    justify-content: center;
+    display: flex;
+}
+.kategori td{
+    padding: 20px;
+}
+.footer{
+    background-color: #FFB8B8;
+    text-align: center;
+    font-size: small;
+    padding: 5px;
+}
+
+.row{
+    font-size: small;
+    padding: 10px;
+}
