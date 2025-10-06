@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 body{
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Poppins, sans-serif;
     background-color: #FCEDD8;
     padding-left: 50px;  
     padding-right: 50px;
@@ -51,22 +52,21 @@ body{
 }
 .header{
     display: flex;
-    width: 15%;
-    background-color: #a983eb;
-    border-radius: 40px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 5px 5px #FFB8B8;
+    border-radius: 10px;
     height: 30px;
     margin-top: 50px;
-    padding: 5px;
-    color: #49326e;
-    border: 3px solid #49326e;
-    box-shadow: 4px 4px #49326e;
+    padding: 3px;
+    color: black;
+    border: 2px solid black;
     font-weight: bold; 
     font-size: large;
     text-align: center;
     justify-content: center;
     align-items: center; 
 }
-
 .main-profil{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -81,19 +81,21 @@ body{
     border-radius: 10px;
     grid-area: 1 / 1 / 2 / 2;
     padding: 5px;
-    
+    border: 2px solid black;
 }
 .profil-2{
     background-color: white;
     border-radius: 10px;
     grid-area: 1 / 2 / 4 / 4;
     padding: 50px;
+    border: 2px solid black;
 }
 .profil-3{
     background-color: #ffd464;
+    border: 2px solid black;
     border-radius: 10px;
     grid-area: 2 / 1 / 3 / 2;
-    color: #b17f00;
+    color: black;
     font-weight: bold;
     display: flex;
     text-align: center;
@@ -102,9 +104,10 @@ body{
 }
 .profil-4{
     background-color: #b1e7f2;
+    border: 2px solid black;
     border-radius: 10px;
     grid-area: 3 / 1 / 4 / 2;
-    color: #2f7685;
+    color: black;
     font-weight: bold;
     display: flex;
     text-align: center;
@@ -122,6 +125,8 @@ body{
 }
 .profil-2 p{
     text-align: left;
+    font-size: large;
+    line-height: 2;
 }
 .main-projects{
     display: grid;
@@ -139,6 +144,7 @@ body{
     gap: 20px;
     background-color: #ffd464;
     border-radius: 10px;
+    border: 2px solid black;
 }
 .projects-grid2{
     display: grid;
@@ -149,6 +155,7 @@ body{
     gap: 20px;
     background-color: #FFB8B8;
     border-radius: 10px;
+    border: 2px solid black;
 }
 .projects-grid3{
     display: grid;
@@ -159,10 +166,12 @@ body{
     gap: 20px;
     background-color: #b1e7f2;
     border-radius: 10px;
+    border: 2px solid black;
 }
 .projects-1{
     background-color: #FCEDD8;
     border-radius: 10px;
+    border: 2px solid black;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -171,6 +180,7 @@ body{
 .projects-2{
     background-color: #fabc19;
     border-radius: 10px;
+    border: 2px solid black;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -180,6 +190,7 @@ body{
 .projects-3{
     background-color: #ff9c9c;
     border-radius: 10px;
+    border: 2px solid black;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -189,6 +200,7 @@ body{
 .projects-4{
     background-color: #78d1e3;
     border-radius: 10px;
+    border: 2px solid black;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -196,19 +208,29 @@ body{
     padding: 5px;
 }
 .projects-1 img{
-    width: 200px;
-    height: 200px;
+    width: 100%;    
+    height: 100%;   
+    object-fit: cover;
+    border-radius: 10px;
 }
 .main-projects a{
     font-weight: bold;
     font-size: medium;
     text-decoration: none;
-    color: #FCEDD8;
+    color: black;
+}
+.main-exp-edu{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 70% 25%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 50px auto;
+    gap: 50px;
 }
 .main-experiences{
     display: grid;
     margin-top: 30px;
-    grid-template-rows: repeat(3, 250px);
+    grid-template-rows: repeat(3, auto);
     row-gap: 50px;
 }
 .main-experiences h2{
@@ -217,6 +239,7 @@ body{
 .main-experiences h4{
     text-align: left;
     color: grey;
+    font-weight: 400;
 }
 .main-experiences li{
     text-align: left;
@@ -225,36 +248,71 @@ body{
 }
 .exp-1{
     background-color: white;
-    border: 4px solid #ffd464;
     box-shadow: 15px 15px #fabc19;
     border-radius: 20px;
-    padding-top: 10px;
-    padding-left:30px;
+    border: 2px solid black;
+    padding: 10px 10px 30px 30px;
 }
 .exp-2{
     background-color: white;
-    border: 4px solid #FFB8B8;
     box-shadow: 15px 15px #ff9c9c;
     border-radius: 20px;
-    padding-top: 10px;
-    padding-left:30px;
+    border: 2px solid black;
+    padding: 10px 10px 30px 30px;
 }
 .exp-3{
     background-color: white;
-    border: 4px solid #b1e7f2;
     box-shadow: 15px 15px #78d1e3;
     border-radius: 20px;
-    padding-top: 10px;
-    padding-left:30px;
+    border: 2px solid black;
+    padding: 10px 10px 30px 30px;
+}
+.main-edu{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 30px;
+    row-gap: 5px;
+}
+.edu-1{
+    background-color: white;
+    height: fit-content;
+    box-shadow: 15px 15px #ff9c9c;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 10px 30px 30px 30px;
+}
+.edu-2{
+    background-color: white;
+    height: fit-content;
+    box-shadow: 15px 15px #78d1e3;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 10px 30px 30px 30px;
+}
+.main-edu h2{
+    background-color: black;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+}
+.main-edu h4{
+    color: grey;
+    font-weight: 500;
 }
 .main-contacts{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 30px;
     background-color: #ff9c9c;
-    border-radius: 30px;
+    border-radius: 20px;
     gap: 10px;
     margin-bottom: 50px;
+    border: 3px solid #B0183D;
+    box-shadow: 4px 4px #B0183D;
 }
 .contacts{
     padding: 20px;
@@ -263,13 +321,13 @@ body{
     align-items: center;
 }
 .contacts img{
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     margin-bottom: 10px;
 }
 .contacts a{
     text-decoration: none;
-    font-size: medium;
+    font-size: small;
     padding: 10px;
     color: #B0183D;
     text-align: center;
